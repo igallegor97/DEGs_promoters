@@ -1,0 +1,4 @@
+# Ignorar archivos grandes
+data/genome.db
+data/MrorC26.groups.fasta
+data/MrorC26.groups.gff3
