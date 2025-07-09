@@ -54,38 +54,23 @@ This repository contains the workflow and scripts for classifying Differentially
 
 ## Directory Structure
 
+```
 ├── data/
-
-│ ├── genome.fasta # Reference genome sequences
-
-│ ├── annotation.gff3 # Gene annotation GFF3 file
-
+│   ├── genome.fasta                # Reference genome sequences
+│   ├── annotation.gff3             # Gene annotation GFF3 file
 ├── features/
-
-│ ├── gene_features.csv # Optional: gene-level features
-
-│ ├── promoter_sequences.fasta # Extracted promoter sequences
-
-│ ├── promoter_encoded.npy # One-hot encoded promoter sequences
-
+│   ├── gene_features.csv           # Optional: gene-level features
+│   ├── promoter_sequences.fasta    # Extracted promoter sequences
+│   ├── promoter_encoded.npy        # One-hot encoded promoter sequences
 ├── models/
-
-│ ├── cnn_promoter_model.h5 # Trained CNN model file
-
+│   ├── cnn_promoter_model.h5       # Trained CNN model file
 ├── scripts/
-
-│ ├── extract_promoters.py # Extract promoters from GFF3+FASTA
-
-│ ├── encode_promoters.py # One-hot encode promoter sequences
-
-│ ├── train_cnn.py # Train CNN classifier on promoters
-
-│ ├── predict_cnn.py # Predict and interpret new sequences
-
+│   ├── extract_promoters.py        # Extract promoters from GFF3+FASTA
+│   ├── encode_promoters.py         # One-hot encode promoter sequences
+│   ├── train_cnn.py                # Train CNN classifier on promoters
+│   ├── predict_cnn.py              # Predict and interpret new sequences
 ├── README.md
-
-
----
+```
 
 ## Usage
 
